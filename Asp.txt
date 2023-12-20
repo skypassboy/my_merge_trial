@@ -1,0 +1,12 @@
+Regular Expression for
+Name : No special characters or numeric chars- /^[a-zA-Z\s]*$/
+Email :@ must be present- /^[\w-]+(\.[\w-]+)*@[\w-]+(\.[\w-]+)+$/
+Phone No: Only numeric- /^\d{10}$/
+Aadhar : 9 digit numerics- /^\d{12}$/
+Card No :
+Password :Atleast One capital one small and one special charachter ^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$
+
+Commands for Git(While Pushing)
+git add .
+git commit -m "Update day 20-12-23"
+git push origin Atharv
