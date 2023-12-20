@@ -1,10 +1,11 @@
 import React from 'react';
+import '../styles/propertyCardStyles.css';
 
 let arr = [
     {
         "img": "https://images.nobroker.in/images/8a9f97848bc14f2f018bc24d229407f3/8a9f97848bc14f2f018bc24d229407f3_516448_630976_large.jpg",
                 "Rent": "₹80,000/M",
-                "Place": "Model Colony,Shivajinagar",
+                "place": "Model Colony,Shivajinagar",
                 "OwnerName": "Priya Sharma.",
                 "ContactInfo": {
             "Phone": "9876543210",
